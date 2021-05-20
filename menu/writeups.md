@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WriteUps
+title: Writeups
 ---
 <ul class="writeups">
   {% for post in site.writeups %}
