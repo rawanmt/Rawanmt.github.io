@@ -3,7 +3,7 @@ layout: page
 title: Writeups
 ---
 <ul class="writeups">
-  {% for post in site.writeups %}
+  {% for post in site.posts %}
 
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
